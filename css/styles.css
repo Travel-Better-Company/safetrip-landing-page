@@ -1,0 +1,41 @@
+.boton {
+  background-color: #117059;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  top: -20px;
+  margin-top: 100%;
+}
+
+.inicio {
+  background-color: black;
+  border: 0;
+  border-color: black;
+  overflow: hidden;
+  width: 100%;
+}
+ 
+h1 {
+  color: rgba(2, 196, 195, 1);
+  font-size: 64px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  width: 600px;
+  height: 261px;
+}
+  
+.pWhite {
+  font-size: 24px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: rgba(225, 226, 231, 1);
+  width: 532px;
+  height: 38px;
+}
+body {
+  margin:0;
+  padding:0
+}
