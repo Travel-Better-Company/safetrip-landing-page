@@ -17,16 +17,7 @@
   overflow: hidden;
   width: 100%;
 }
- 
-h1 {
-  color: rgba(2, 196, 195, 1);
-  font-size: 64px;
-  font-family: "Open Sans";
-  font-weight: 400;
-  width: 600px;
-  height: 261px;
-}
-  
+
 .pWhite {
   font-size: 24px;
   font-family: "Open Sans";
@@ -35,7 +26,48 @@ h1 {
   width: 532px;
   height: 38px;
 }
+
 body {
   margin:0;
   padding:0
 }
+
+h1 {
+  color: rgba(2, 196, 195, 1);
+  font-size: 64px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  width: 600px;
+  height: 261px;
+}
+h2 {
+  font-size: 45px;
+  font-family: "Arial Rounded MT Bold";
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: "Arial Rounded MT Bold";
+  font-weight: 400;
+}
+
+p{
+  font-size: 22px;
+  font-family: "Arial Rounded MT Bold";
+  font-weight: 400;
+}
+
+.columns{ 
+  display:flex;
+}
+
+.columna{
+  padding: 25px;
+  margin:0 10px;
+  text-align:left;
+  border-radius: 10px;
+}
+
