@@ -5,9 +5,8 @@
   padding: 10px;
   font-size: 16px;
   text-decoration: none;
-  position: relative;
-  top: -20px;
-  margin-top: 100%;
+  position: right;
+  margin-right: 140px;
 }
 
 .inicio {
@@ -20,25 +19,26 @@
 
 .pWhite {
   font-size: 24px;
-  font-family: "Open Sans";
+  font-family: "Arial";
   font-weight: 400;
   color: rgba(225, 226, 231, 1);
   width: 532px;
-  height: 38px;
+  height: 155px;
 }
 
 body {
   margin:0;
-  padding:0
+  padding:0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   color: rgba(2, 196, 195, 1);
   font-size: 64px;
   font-family: "Open Sans";
-  font-weight: 400;
+  font-weight: 100;
   width: 600px;
-  height: 261px;
+  height: 200px;
 }
 h2 {
   font-size: 45px;
@@ -60,6 +60,11 @@ p{
   font-weight: 400;
 }
 
+h1, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*columna*/
 .columns{ 
   display:flex;
 }
@@ -70,4 +75,318 @@ p{
   text-align:left;
   border-radius: 10px;
 }
+
+.columna img {
+    width: 100px;
+    height: 100px;
+    margin-right: 4px;
+}
+/* Header */
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+
+/* Estilo del contenido de inicio */
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Esto separará el logo y el contenido de la descripción */
+}
+
+/* Estilo del logotipo */
+.inicio img {
+    width: 200px;
+    height: 200px;
+    margin-right: 4px;
+}
+
+/* Estilo del título (h1) */
+.inicio h1 {
+    margin-right: 2px;
+}
+
+/* Estilo de la descripción y el botón */
+.descripcion {
+    text-align: center; /* Centra el contenido de la descripción */
+}
+
+.pWhite {
+    color: #fff;
+}
+
+.boton {
+    display: block; /* Hace que el botón sea un bloque para que aparezca debajo del texto */
+    margin-top: 150px; /* Agrega un margen superior para separar el botón del texto */
+	margin-right: 300px;
+}
+
+/*-------------Caracteristicas---------------*/
+/* Estilo de la sección de productos */
+.product-section {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+/* Estilo para el contenedor de imagen y título */
+.image-and-title {
+    display: flex; /* Esto coloca la imagen y el título en la misma fila */
+    align-items: center; /* Esto centra verticalmente los elementos */
+    margin-bottom: 20px; /* Añade un margen inferior para separar del contenido siguiente */
+}
+
+/* Estilo de la imagen */
+.image-and-title img {
+    /* Ajusta el estilo de la imagen según sea necesario */
+    width: 100px; /* Ejemplo de ancho de imagen */
+    height: auto;
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+/* Estilo para el título (h2) */
+.image-and-title h2 {
+    /* Ajusta el estilo del título según sea necesario */
+    margin: 0; /* Elimina el margen predeterminado del título */
+}
+
+/*--------Beneficios--------- */
+.product-beneficios {
+    background-color: black;
+	color: white;
+	margin-bottom:21px;
+	min-height: 100px;
+
+}
+.beneficios_head {
+    margin-left: 120px; /* Agrega un margen izquierdo de 100px */
+	margin-right: 10px;
+    /* Otros estilos de la sección según sea necesario */
+}
+.beneficios_head {
+    min-height: 20px; /* Agrega un margen izquierdo de 100px */
+	margin-bottom: 50px;
+    /* Otros estilos de la sección según sea necesario */
+}
+/* Estilo para cada beneficio */
+.beneficio {
+    clear: both; /* Evita que los elementos floten uno junto al otro */
+    margin-bottom: 42px; /* Agrega un margen inferior para separar los beneficios */
+	margin-left: 95px;
+	background-color: black;
+}
+
+/* Estilo para las imágenes dentro de cada beneficio */
+.beneficio img {
+    float: left; /* Esto coloca las imágenes a la izquierda de los textos */
+    margin-right: 8px; /* Espacio entre la imagen y el texto */
+    width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: 200px; /* Permite que la altura se ajuste automáticamente */
+}
+
+.beneficio::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Estilo para el texto (encabezado y párrafo) dentro de cada beneficio */
+.beneficio .texto {
+	margin-bottom: 50px;
+    /* Ajusta el estilo del texto según sea necesario */
+}
+
+/*------------Testimonios----------------- */
+.product-testimonio {
+    /* Ajusta otros estilos de la sección según sea necesario */
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 65px;
+}
+
+/* Estilo para la div testimonios_head */
+.testimonios_head {
+    display: flex; /* Esto coloca la imagen y el título en la misma fila */
+    align-items: center; /* Esto centra verticalmente los elementos */
+}
+
+/* Estilo para la imagen dentro de testimonios_head */
+.testimonios_head img {
+    /* Ajusta el estilo de la imagen según sea necesario */
+    width: 50px; /* Ejemplo de ancho de imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+/* Estilo para la div testimonios_declara */
+.testimonios_declara {
+    /* Ajusta otros estilos de la div según sea necesario */
+    display: flex; /* Esto coloca los elementos en la misma fila */
+    align-items: center; /* Esto centra verticalmente los elementos */
+}
+
+/* Estilo para la imagen dentro de testimonios_declara */
+.testimonios_declara img {
+    /* Ajusta el estilo de la imagen según sea necesario */
+    width: 320px; /* Ejemplo de ancho de imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    margin-right: 10px; /* Espacio entre la imagen y el contenido de texto */
+	margin-left: 500px;
+}
+
+/* Estilo para el contenedor de texto (título y párrafo) dentro de testimonios_declara */
+.text-container {
+	float: left;
+	margin-left: 20px;
+	margin-right: 250px;
+    /* Ajusta otros estilos del contenedor según sea necesario */
+}
+
+.text-container h2{
+	font-size: 32px;
+    /* Ajusta otros estilos del contenedor según sea necesario */
+}
+
+.text-container h3{
+	font-size: 14px; 
+    /* Ajusta otros estilos del contenedor según sea necesario */
+}
+
+/*------------Precio-----------*/
+.precios-section {
+  background-color: #05122B;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.precios-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.precios-section h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 500px;
+}
+
+.precios-section h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.precios-section .card1 {
+  background-color: #1C3F83;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 300px; /* Establece el ancho deseado */
+  height: 400px; /* Establece la altura deseada */
+  border: 1px solid #ddd; /* Opcional: Agrega un borde para separación visual */
+  text-align: center; /* Opcional: Alinea el contenido al centro horizontalmente */
+  display: inline-block; /* Opcional: Muestra las tarjetas en línea una al lado de la otra */
+  vertical-align: top; /* Opcional: Alinea las tarjetas en la parte superior dentro del contenedor */
+}
+
+.precios-section .container h3 {
+  margin-bottom: 10px;
+}
+
+.precios-section .container .btn {
+  background-color: #117059;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.precios-section .container .btn:hover {
+  background-color: #2b6816;
+}
+
+/*-----------CTA----------*/
+.productos-cta {
+    display: flex; /* Esto permite que los elementos se coloquen en fila */
+    align-items: center; /* Esto alinea verticalmente los elementos */
+}
+
+.cta_card {
+    display: flex; /* Esto permite que los elementos se coloquen en fila */
+    align-items: center; /* Esto alinea verticalmente los elementos */
+}
+
+/* Estilo para el contenedor izquierdo (h1 y botón) dentro de cta_card */
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 220px;
+    margin-left: 420px; /* Espacio entre el contenedor izquierdo y la imagen (ajusta según sea necesario) */
+	margin-top: 3px;
+}
+
+.content-left .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 220px;
+    margin-left: 220px; /* Espacio entre el contenedor izquierdo y la imagen (ajusta según sea necesario) */
+	margin-top: 2px;
+	width: 60px;
+	height: 20px;
+}
+
+.content-left .boton .text{
+	text-align: center;
+}
+
+/* Estilo para la imagen dentro de cta_card */
+.cta_card img {
+    /* Ajusta el estilo de la imagen según sea necesario */
+}
+
+footer{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between; /* Distribuye las divs de manera uniforme */
+    margin-left: 0px; /* Agrega un margen izquierdo de al menos 200px */
+    margin-right: 0px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+
+}
+
+.footer_card_a {
+    margin-left: 250px; /* Agrega un margen izquierdo de al menos 200px */
+    margin-right: 50px;
+}
+
+.footer_card_a h2{
+	font-size: 22px;
+}
+.footer_card_a h3{
+	font-size: 16px;
+}
+
+
+/* Estilo para la segunda div (footer_card_b) */
+.footer_card_b {
+    margin-left: 50px; /* Agrega un margen izquierdo de al menos 200px */
+    margin-right: 250px;
+	font-size: 2 px;
+}
+
+.footer_card_b h2{
+	font-size: 22px;
+}
+.footer_card_b h3{
+	font-size: 16px;
+}
+
 
